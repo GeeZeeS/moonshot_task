@@ -38,7 +38,10 @@ class DecisionMapper:
         self.provider = provider
 
     async def execute(
-        self, request_id: str, operation_type: str, payload: dict[str, Any]
+        self,
+        request_id: str,
+        operation_type: str,
+        payload: dict[str, Any],
     ) -> dict[str, Any]:
         operation = OPERATIONS.get(operation_type)
         if operation is None:
