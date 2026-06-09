@@ -13,6 +13,10 @@ class SportsProvider(ABC):
         raise NotImplementedError
 
     @abstractmethod
+    async def get_league(self, payload: dict[str, Any]) -> dict[str, Any]:
+        raise NotImplementedError
+
+    @abstractmethod
     async def get_league_matches(self, payload: dict[str, Any]) -> dict[str, Any]:
         raise NotImplementedError
 

@@ -1,0 +1,80 @@
+[
+  {
+    "matchID": 73613,
+    "matchDateTime": "2024-12-15T14:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4761,
+    "leagueName": "2. Frauen-Bundesliga 2024/2025",
+    "leagueSeason": 2024,
+    "leagueShortcut": "bl2f",
+    "matchDateTimeUTC": "2024-12-15T13:00:00Z",
+    "group": {
+      "groupName": "13. Spieltag",
+      "groupOrderID": 13,
+      "groupID": 45696
+    },
+    "team1": {
+      "teamId": 2299,
+      "teamName": "FSV Gütersloh 2009",
+      "shortName": "Gütersloh",
+      "teamIconUrl": "",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 6447,
+      "teamName": "1. FC Union Berlin Frauen",
+      "shortName": "Union Berlin",
+      "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2024-08-05T13:58:14.077",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": {
+      "locationID": 1598,
+      "locationCity": "Rheda-Wiedenbrück",
+      "locationStadium": "Tönnies Arena"
+    },
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 73703,
+    "matchDateTime": "2025-05-18T14:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4761,
+    "leagueName": "2. Frauen-Bundesliga 2024/2025",
+    "leagueSeason": 2024,
+    "leagueShortcut": "bl2f",
+    "matchDateTimeUTC": "2025-05-18T12:00:00Z",
+    "group": {
+      "groupName": "26. Spieltag",
+      "groupOrderID": 26,
+      "groupID": 45709
+    },
+    "team1": {
+      "teamId": 6447,
+      "teamName": "1. FC Union Berlin Frauen",
+      "shortName": "Union Berlin",
+      "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 2299,
+      "teamName": "FSV Gütersloh 2009",
+      "shortName": "Gütersloh",
+      "teamIconUrl": "",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2024-08-05T14:59:54.757",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": {
+      "locationID": 1630,
+      "locationCity": "Berlin",
+      "locationStadium": "Fritz-Lesch-Sportanlage"
+    },
+    "numberOfViewers": null
+  }
+]

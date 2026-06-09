@@ -1,0 +1,2522 @@
+[
+  {
+    "matchID": 80099,
+    "matchDateTime": "2026-06-11T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-11T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 761,
+      "teamName": "Mexiko",
+      "shortName": "MEX",
+      "teamIconUrl": "https://awiealex.de/flags/mx.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 677,
+      "teamName": "Südafrika",
+      "shortName": "RSA",
+      "teamIconUrl": "https://awiealex.de/flags/za.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:25:38.527",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80100,
+    "matchDateTime": "2026-06-12T04:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-12T02:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 751,
+      "teamName": "Südkorea",
+      "shortName": "KOR",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/20px-Flag_of_South_Korea.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 141,
+      "teamName": "Tschechien",
+      "shortName": "CZE",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:16:34.04",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80101,
+    "matchDateTime": "2026-06-12T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-12T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 1645,
+      "teamName": "Kanada",
+      "shortName": "CAN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 2671,
+      "teamName": "Bosnien und Herzegowina",
+      "shortName": "BIH",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/20px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:16:51.433",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80102,
+    "matchDateTime": "2026-06-13T03:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-13T01:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 762,
+      "teamName": "USA",
+      "shortName": "USA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/20px-Flag_of_the_United_States.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 756,
+      "teamName": "Paraguay",
+      "shortName": "PAR",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:32:23.297",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80103,
+    "matchDateTime": "2026-06-13T06:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-13T04:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 750,
+      "teamName": "Australien",
+      "shortName": "AUS",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/20px-Flag_of_Australia.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 153,
+      "teamName": "Türkei",
+      "shortName": "TUR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1280px-Flag_of_Turkey.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:17:03.427",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80104,
+    "matchDateTime": "2026-06-13T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-13T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 4912,
+      "teamName": "Katar",
+      "shortName": "QAT",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 38,
+      "teamName": "Schweiz",
+      "shortName": "CHE",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SUI.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:33:24.403",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80105,
+    "matchDateTime": "2026-06-14T00:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-13T22:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 753,
+      "teamName": "Brasilien",
+      "shortName": "BRA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4629,
+      "teamName": "Marokko",
+      "shortName": "MAR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/20px-Flag_of_Morocco.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:34:16.34",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80106,
+    "matchDateTime": "2026-06-14T03:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-14T01:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 5820,
+      "teamName": "Haiti",
+      "shortName": "HTI",
+      "teamIconUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 5271,
+      "teamName": "Schottland",
+      "shortName": "SCT",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SCO.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:34:41.533",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80107,
+    "matchDateTime": "2026-06-14T19:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-14T17:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 139,
+      "teamName": "Deutschland",
+      "shortName": "DEU",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/FRG.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7321,
+      "teamName": "Curaçao",
+      "shortName": "CUW",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Cura%C3%A7ao.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:34:56.63",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80108,
+    "matchDateTime": "2026-06-14T22:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-14T20:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 4353,
+      "teamName": "Niederlande",
+      "shortName": "NLD",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/20px-Flag_of_the_Netherlands.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 749,
+      "teamName": "Japan",
+      "shortName": "JPN",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/20px-Flag_of_Japan.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:35:29.423",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80109,
+    "matchDateTime": "2026-06-15T01:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-14T23:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 4993,
+      "teamName": "Elfenbeinküste",
+      "shortName": "CIV",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 2670,
+      "teamName": "Ecuador",
+      "shortName": "ECU",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:35:59.637",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80110,
+    "matchDateTime": "2026-06-15T04:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-15T02:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 151,
+      "teamName": "Schweden",
+      "shortName": "SWE",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 1391,
+      "teamName": "Tunesien",
+      "shortName": "TUN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/20px-Flag_of_Tunisia.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:17:18.217",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80111,
+    "matchDateTime": "2026-06-15T18:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-15T16:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 170,
+      "teamName": "Spanien",
+      "shortName": "ESP",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/ESP.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 6159,
+      "teamName": "Kap Verde",
+      "shortName": "CPV",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:36:39.75",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80112,
+    "matchDateTime": "2026-06-15T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-15T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 2673,
+      "teamName": "Belgien",
+      "shortName": "BEL",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/BEL.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4766,
+      "teamName": "Ägypten",
+      "shortName": "EGY",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1920px-Flag_of_Egypt.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:36:52.45",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80113,
+    "matchDateTime": "2026-06-16T00:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-15T22:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 4670,
+      "teamName": "Saudi Arabien",
+      "shortName": "SAU",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 5593,
+      "teamName": "Uruguay",
+      "shortName": "URY",
+      "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/22/uruguay-26970_960_720.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:37:33.903",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80114,
+    "matchDateTime": "2026-06-16T03:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-16T01:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 5570,
+      "teamName": "Iran",
+      "shortName": "IRN",
+      "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/03/iran-26826_960_720.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 846,
+      "teamName": "Neuseeland",
+      "shortName": "NZL",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/20px-Flag_of_New_Zealand.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:37:58.027",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80115,
+    "matchDateTime": "2026-06-16T06:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-16T04:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 37,
+      "teamName": "Österreich",
+      "shortName": "AUT",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/AUT.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7323,
+      "teamName": "Jordanien",
+      "shortName": "JOR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:38:14.62",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80116,
+    "matchDateTime": "2026-06-16T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-16T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 1647,
+      "teamName": "Frankreich",
+      "shortName": "FRA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4630,
+      "teamName": "Senegal",
+      "shortName": "SEN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/20px-Flag_of_Senegal.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:38:27.68",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80117,
+    "matchDateTime": "2026-06-17T00:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-16T22:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 7434,
+      "teamName": "Irak",
+      "shortName": "IRQ",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 1396,
+      "teamName": "Norwegen",
+      "shortName": "NOR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:17:37.333",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80118,
+    "matchDateTime": "2026-06-17T03:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-17T01:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 764,
+      "teamName": "Argentinien",
+      "shortName": "ARG",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7322,
+      "teamName": "Algerien",
+      "shortName": "DZA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/20px-Flag_of_Algeria.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:39:25.443",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80119,
+    "matchDateTime": "2026-06-17T19:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-17T17:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 3198,
+      "teamName": "Portugal",
+      "shortName": "PRT",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Flag_of_Portugal_%28official%29.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4991,
+      "teamName": "DR Kongo",
+      "shortName": "COD",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:17:55.76",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80120,
+    "matchDateTime": "2026-06-17T22:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-17T20:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 755,
+      "teamName": "England",
+      "shortName": "ENG",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/ENG.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7325,
+      "teamName": "Kroatien",
+      "shortName": "HRV",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/CRO.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:39:50.957",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80121,
+    "matchDateTime": "2026-06-18T01:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-17T23:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 754,
+      "teamName": "Ghana",
+      "shortName": "GHA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/20px-Flag_of_Ghana.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4631,
+      "teamName": "Panama",
+      "shortName": "PAN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:40:14.167",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80122,
+    "matchDateTime": "2026-06-18T04:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-18T02:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 1",
+      "groupOrderID": 1,
+      "groupID": 49767
+    },
+    "team1": {
+      "teamId": 7324,
+      "teamName": "Usbekistan",
+      "shortName": "UZB",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 1469,
+      "teamName": "Kolumbien",
+      "shortName": "COL",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:40:26.19",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80124,
+    "matchDateTime": "2026-06-18T18:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-18T16:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 141,
+      "teamName": "Tschechien",
+      "shortName": "CZE",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 677,
+      "teamName": "Südafrika",
+      "shortName": "RSA",
+      "teamIconUrl": "https://awiealex.de/flags/za.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:18:14.267",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80125,
+    "matchDateTime": "2026-06-18T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-18T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 38,
+      "teamName": "Schweiz",
+      "shortName": "CHE",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SUI.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 2671,
+      "teamName": "Bosnien und Herzegowina",
+      "shortName": "BIH",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/20px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:18:18.83",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80126,
+    "matchDateTime": "2026-06-19T00:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-18T22:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 1645,
+      "teamName": "Kanada",
+      "shortName": "CAN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4912,
+      "teamName": "Katar",
+      "shortName": "QAT",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:45:49.61",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80127,
+    "matchDateTime": "2026-06-19T03:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-19T01:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 761,
+      "teamName": "Mexiko",
+      "shortName": "MEX",
+      "teamIconUrl": "https://awiealex.de/flags/mx.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 751,
+      "teamName": "Südkorea",
+      "shortName": "KOR",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/20px-Flag_of_South_Korea.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:46:05.43",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80128,
+    "matchDateTime": "2026-06-19T06:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-19T04:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 153,
+      "teamName": "Türkei",
+      "shortName": "TUR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1280px-Flag_of_Turkey.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 756,
+      "teamName": "Paraguay",
+      "shortName": "PAR",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:18:30.613",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80129,
+    "matchDateTime": "2026-06-19T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-19T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 762,
+      "teamName": "USA",
+      "shortName": "USA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/20px-Flag_of_the_United_States.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 750,
+      "teamName": "Australien",
+      "shortName": "AUS",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/20px-Flag_of_Australia.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:47:39.42",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80130,
+    "matchDateTime": "2026-06-20T00:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-19T22:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 5271,
+      "teamName": "Schottland",
+      "shortName": "SCT",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SCO.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4629,
+      "teamName": "Marokko",
+      "shortName": "MAR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/20px-Flag_of_Morocco.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:48:15.897",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80131,
+    "matchDateTime": "2026-06-20T03:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-20T01:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 753,
+      "teamName": "Brasilien",
+      "shortName": "BRA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 5820,
+      "teamName": "Haiti",
+      "shortName": "HTI",
+      "teamIconUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:48:36.4",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80132,
+    "matchDateTime": "2026-06-20T06:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-20T04:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 1391,
+      "teamName": "Tunesien",
+      "shortName": "TUN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/20px-Flag_of_Tunisia.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 749,
+      "teamName": "Japan",
+      "shortName": "JPN",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/20px-Flag_of_Japan.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:48:48.837",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80133,
+    "matchDateTime": "2026-06-20T19:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-20T17:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 4353,
+      "teamName": "Niederlande",
+      "shortName": "NLD",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/20px-Flag_of_the_Netherlands.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 151,
+      "teamName": "Schweden",
+      "shortName": "SWE",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:18:43.65",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80134,
+    "matchDateTime": "2026-06-20T22:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-20T20:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 139,
+      "teamName": "Deutschland",
+      "shortName": "DEU",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/FRG.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4993,
+      "teamName": "Elfenbeinküste",
+      "shortName": "CIV",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:49:22.967",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80135,
+    "matchDateTime": "2026-06-21T02:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-21T00:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 2670,
+      "teamName": "Ecuador",
+      "shortName": "ECU",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7321,
+      "teamName": "Curaçao",
+      "shortName": "CUW",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Cura%C3%A7ao.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:50:30.043",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80136,
+    "matchDateTime": "2026-06-21T18:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-21T16:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 170,
+      "teamName": "Spanien",
+      "shortName": "ESP",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/ESP.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4670,
+      "teamName": "Saudi Arabien",
+      "shortName": "SAU",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:50:45.55",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80137,
+    "matchDateTime": "2026-06-21T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-21T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 2673,
+      "teamName": "Belgien",
+      "shortName": "BEL",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/BEL.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 5570,
+      "teamName": "Iran",
+      "shortName": "IRN",
+      "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/03/iran-26826_960_720.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:50:56.607",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80138,
+    "matchDateTime": "2026-06-22T00:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-21T22:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 5593,
+      "teamName": "Uruguay",
+      "shortName": "URY",
+      "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/22/uruguay-26970_960_720.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 6159,
+      "teamName": "Kap Verde",
+      "shortName": "CPV",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:51:17.933",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80139,
+    "matchDateTime": "2026-06-22T03:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-22T01:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 846,
+      "teamName": "Neuseeland",
+      "shortName": "NZL",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/20px-Flag_of_New_Zealand.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4766,
+      "teamName": "Ägypten",
+      "shortName": "EGY",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1920px-Flag_of_Egypt.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:51:28.097",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80140,
+    "matchDateTime": "2026-06-22T19:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-22T17:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 764,
+      "teamName": "Argentinien",
+      "shortName": "ARG",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 37,
+      "teamName": "Österreich",
+      "shortName": "AUT",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/AUT.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:51:38.967",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80141,
+    "matchDateTime": "2026-06-22T23:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-22T21:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 1647,
+      "teamName": "Frankreich",
+      "shortName": "FRA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7434,
+      "teamName": "Irak",
+      "shortName": "IRQ",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:19:03.123",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80142,
+    "matchDateTime": "2026-06-23T02:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-23T00:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 1396,
+      "teamName": "Norwegen",
+      "shortName": "NOR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4630,
+      "teamName": "Senegal",
+      "shortName": "SEN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/20px-Flag_of_Senegal.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:52:36.88",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80143,
+    "matchDateTime": "2026-06-23T05:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-23T03:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 7323,
+      "teamName": "Jordanien",
+      "shortName": "JOR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7322,
+      "teamName": "Algerien",
+      "shortName": "DZA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/20px-Flag_of_Algeria.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:52:50.58",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80144,
+    "matchDateTime": "2026-06-23T19:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-23T17:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 3198,
+      "teamName": "Portugal",
+      "shortName": "PRT",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Flag_of_Portugal_%28official%29.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7324,
+      "teamName": "Usbekistan",
+      "shortName": "UZB",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:53:06.717",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80145,
+    "matchDateTime": "2026-06-23T22:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-23T20:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 755,
+      "teamName": "England",
+      "shortName": "ENG",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/ENG.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 754,
+      "teamName": "Ghana",
+      "shortName": "GHA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/20px-Flag_of_Ghana.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:53:26.297",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80146,
+    "matchDateTime": "2026-06-24T01:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-23T23:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 4631,
+      "teamName": "Panama",
+      "shortName": "PAN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7325,
+      "teamName": "Kroatien",
+      "shortName": "HRV",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/CRO.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:53:46.273",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80147,
+    "matchDateTime": "2026-06-24T04:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-24T02:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 2",
+      "groupOrderID": 2,
+      "groupID": 49773
+    },
+    "team1": {
+      "teamId": 1469,
+      "teamName": "Kolumbien",
+      "shortName": "COL",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4991,
+      "teamName": "DR Kongo",
+      "shortName": "COD",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:19:14.537",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80148,
+    "matchDateTime": "2026-06-24T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-24T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 38,
+      "teamName": "Schweiz",
+      "shortName": "CHE",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SUI.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 1645,
+      "teamName": "Kanada",
+      "shortName": "CAN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:54:37.75",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80149,
+    "matchDateTime": "2026-06-24T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-24T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 2671,
+      "teamName": "Bosnien und Herzegowina",
+      "shortName": "BIH",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/20px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4912,
+      "teamName": "Katar",
+      "shortName": "QAT",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:19:43.007",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80150,
+    "matchDateTime": "2026-06-25T00:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-24T22:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 4629,
+      "teamName": "Marokko",
+      "shortName": "MAR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/20px-Flag_of_Morocco.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 5820,
+      "teamName": "Haiti",
+      "shortName": "HTI",
+      "teamIconUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:55:47.04",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80151,
+    "matchDateTime": "2026-06-25T00:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-24T22:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 5271,
+      "teamName": "Schottland",
+      "shortName": "SCT",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SCO.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 753,
+      "teamName": "Brasilien",
+      "shortName": "BRA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/20px-Flag_of_Brazil.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:55:57.93",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80152,
+    "matchDateTime": "2026-06-25T03:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-25T01:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 677,
+      "teamName": "Südafrika",
+      "shortName": "RSA",
+      "teamIconUrl": "https://awiealex.de/flags/za.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 751,
+      "teamName": "Südkorea",
+      "shortName": "KOR",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/20px-Flag_of_South_Korea.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:56:12.867",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80153,
+    "matchDateTime": "2026-06-25T03:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-25T01:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 141,
+      "teamName": "Tschechien",
+      "shortName": "CZE",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 761,
+      "teamName": "Mexiko",
+      "shortName": "MEX",
+      "teamIconUrl": "https://awiealex.de/flags/mx.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:19:56.637",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80154,
+    "matchDateTime": "2026-06-25T22:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-25T20:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 7321,
+      "teamName": "Curaçao",
+      "shortName": "CUW",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Cura%C3%A7ao.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4993,
+      "teamName": "Elfenbeinküste",
+      "shortName": "CIV",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:56:56.977",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80155,
+    "matchDateTime": "2026-06-25T22:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-25T20:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 2670,
+      "teamName": "Ecuador",
+      "shortName": "ECU",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/20px-Flag_of_Ecuador.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 139,
+      "teamName": "Deutschland",
+      "shortName": "DEU",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/FRG.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:57:02.8",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80156,
+    "matchDateTime": "2026-06-26T01:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-25T23:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 1391,
+      "teamName": "Tunesien",
+      "shortName": "TUN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/20px-Flag_of_Tunisia.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4353,
+      "teamName": "Niederlande",
+      "shortName": "NLD",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/20px-Flag_of_the_Netherlands.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:57:39.173",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80157,
+    "matchDateTime": "2026-06-26T01:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-25T23:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 749,
+      "teamName": "Japan",
+      "shortName": "JPN",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/20px-Flag_of_Japan.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 151,
+      "teamName": "Schweden",
+      "shortName": "SWE",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:20:08.853",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80158,
+    "matchDateTime": "2026-06-26T04:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-26T02:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 153,
+      "teamName": "Türkei",
+      "shortName": "TUR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1280px-Flag_of_Turkey.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 762,
+      "teamName": "USA",
+      "shortName": "USA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/20px-Flag_of_the_United_States.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:20:33.68",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80159,
+    "matchDateTime": "2026-06-26T04:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-26T02:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 756,
+      "teamName": "Paraguay",
+      "shortName": "PAR",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/20px-Flag_of_Paraguay.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 750,
+      "teamName": "Australien",
+      "shortName": "AUS",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/20px-Flag_of_Australia.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:58:14.973",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80160,
+    "matchDateTime": "2026-06-26T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-26T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 1396,
+      "teamName": "Norwegen",
+      "shortName": "NOR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 1647,
+      "teamName": "Frankreich",
+      "shortName": "FRA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/20px-Flag_of_France.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:58:31.493",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80161,
+    "matchDateTime": "2026-06-26T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-26T19:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 4630,
+      "teamName": "Senegal",
+      "shortName": "SEN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/20px-Flag_of_Senegal.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7434,
+      "teamName": "Irak",
+      "shortName": "IRQ",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:20:44.677",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80162,
+    "matchDateTime": "2026-06-27T02:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-27T00:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 6159,
+      "teamName": "Kap Verde",
+      "shortName": "CPV",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 4670,
+      "teamName": "Saudi Arabien",
+      "shortName": "SAU",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:59:16.38",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80163,
+    "matchDateTime": "2026-06-27T02:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-27T00:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 5593,
+      "teamName": "Uruguay",
+      "shortName": "URY",
+      "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/22/uruguay-26970_960_720.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 170,
+      "teamName": "Spanien",
+      "shortName": "ESP",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/ESP.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:59:22.84",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80164,
+    "matchDateTime": "2026-06-27T05:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-27T03:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 846,
+      "teamName": "Neuseeland",
+      "shortName": "NZL",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/20px-Flag_of_New_Zealand.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 2673,
+      "teamName": "Belgien",
+      "shortName": "BEL",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/BEL.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:59:36.363",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80165,
+    "matchDateTime": "2026-06-27T05:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-27T03:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 4766,
+      "teamName": "Ägypten",
+      "shortName": "EGY",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/1920px-Flag_of_Egypt.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 5570,
+      "teamName": "Iran",
+      "shortName": "IRN",
+      "teamIconUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/03/iran-26826_960_720.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T14:59:41.6",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80166,
+    "matchDateTime": "2026-06-27T23:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-27T21:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 4631,
+      "teamName": "Panama",
+      "shortName": "PAN",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 755,
+      "teamName": "England",
+      "shortName": "ENG",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/50x50/ENG.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T15:00:06.453",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80167,
+    "matchDateTime": "2026-06-27T23:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-27T21:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 7325,
+      "teamName": "Kroatien",
+      "shortName": "HRV",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/CRO.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 754,
+      "teamName": "Ghana",
+      "shortName": "GHA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/20px-Flag_of_Ghana.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T15:00:26.963",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80168,
+    "matchDateTime": "2026-06-28T01:30:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-27T23:30:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 1469,
+      "teamName": "Kolumbien",
+      "shortName": "COL",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/20px-Flag_of_Colombia.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 3198,
+      "teamName": "Portugal",
+      "shortName": "PRT",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Flag_of_Portugal_%28official%29.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T15:01:05.043",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80169,
+    "matchDateTime": "2026-06-28T01:30:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-27T23:30:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 4991,
+      "teamName": "DR Kongo",
+      "shortName": "COD",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 7324,
+      "teamName": "Usbekistan",
+      "shortName": "UZB",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-04-01T18:21:00.773",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80170,
+    "matchDateTime": "2026-06-28T04:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-28T02:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 7322,
+      "teamName": "Algerien",
+      "shortName": "DZA",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/20px-Flag_of_Algeria.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 37,
+      "teamName": "Österreich",
+      "shortName": "AUT",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/AUT.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T15:01:27.03",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 80171,
+    "matchDateTime": "2026-06-28T04:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4897,
+    "leagueName": "WM 2026",
+    "leagueSeason": 2026,
+    "leagueShortcut": "wm26",
+    "matchDateTimeUTC": "2026-06-28T02:00:00Z",
+    "group": {
+      "groupName": "Gruppenphase 3",
+      "groupOrderID": 3,
+      "groupID": 49774
+    },
+    "team1": {
+      "teamId": 7323,
+      "teamName": "Jordanien",
+      "shortName": "JOR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 764,
+      "teamName": "Argentinien",
+      "shortName": "ARG",
+      "teamIconUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/20px-Flag_of_Argentina.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2025-12-07T15:01:33.687",
+    "matchIsFinished": false,
+    "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  }
+]

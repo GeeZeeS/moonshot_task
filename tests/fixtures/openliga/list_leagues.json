@@ -1,0 +1,1022 @@
+[
+  {
+    "leagueId": 4638,
+    "leagueName": "3. Fußball-Bundesliga 2023/2024",
+    "leagueShortcut": "bl3",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4642,
+    "leagueName": "VN.at-Eliteliga Vorarlberg",
+    "leagueShortcut": "vsport-vfv-eliteliga",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4651,
+    "leagueName": "Österreichische Bundesliga 2023/24",
+    "leagueShortcut": "öbl1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4655,
+    "leagueName": "COSALUX Eintracht Liga 2023",
+    "leagueShortcut": "cslx2023",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4657,
+    "leagueName": "testmo",
+    "leagueShortcut": "mo1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4659,
+    "leagueName": "test bl3",
+    "leagueShortcut": "bl3t",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4662,
+    "leagueName": "Europa League 2023/24",
+    "leagueShortcut": "uel2023",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4668,
+    "leagueName": "EM 2024 EMEMEMEM",
+    "leagueShortcut": "em2024-emem",
+    "leagueSeason": "2002",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4670,
+    "leagueName": "Smalltest",
+    "leagueShortcut": "smalltest",
+    "leagueSeason": "2022",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4671,
+    "leagueName": "UEFA Champions League 2023",
+    "leagueShortcut": "cl1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4672,
+    "leagueName": "LaLiga EA Sports 2023/2024",
+    "leagueShortcut": "laliga1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4673,
+    "leagueName": "UEFA Champions League 2023/2024",
+    "leagueShortcut": "champion1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4674,
+    "leagueName": "Premier League 2023/2024",
+    "leagueShortcut": "pl1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4675,
+    "leagueName": "UEFA EM 1968",
+    "leagueShortcut": "em",
+    "leagueSeason": "1968",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4676,
+    "leagueName": "UEFA EM 1972",
+    "leagueShortcut": "em",
+    "leagueSeason": "1972",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4683,
+    "leagueName": "Test-Buli Outi77",
+    "leagueShortcut": "tbl1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4685,
+    "leagueName": "Señor Master San Isidro",
+    "leagueShortcut": "sm",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4689,
+    "leagueName": "Regional Liga West 2023/2024",
+    "leagueShortcut": "rlw",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4693,
+    "leagueName": "UEFA Europa Conference League 2023",
+    "leagueShortcut": "uefaconf2023",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4694,
+    "leagueName": "Europameisterschaft 2024",
+    "leagueShortcut": "em2024",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4696,
+    "leagueName": "Tomes",
+    "leagueShortcut": "tl1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4698,
+    "leagueName": "HazeLiga",
+    "leagueShortcut": "byl",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4701,
+    "leagueName": "Afrika Cup 2024",
+    "leagueShortcut": "ac",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4705,
+    "leagueName": "EURO 2024 (Herren)",
+    "leagueShortcut": "meuro2024",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4707,
+    "leagueName": "chewie_test",
+    "leagueShortcut": "bl1ct",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4708,
+    "leagueName": "UEFA EURO 2024",
+    "leagueShortcut": "em",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4722,
+    "leagueName": "1. Fußball-Bundesliga 2001/2002",
+    "leagueShortcut": "bl1",
+    "leagueSeason": "2001",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4723,
+    "leagueName": "C-Junioren Kreisliga St.3 Westthüringen",
+    "leagueShortcut": "CJSt3",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4725,
+    "leagueName": "B-Junioren Kreisliga Staffel 2",
+    "leagueShortcut": "BJKLST2",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4726,
+    "leagueName": "D2-Junioren Kreisliga Staffel 3",
+    "leagueShortcut": "D2JKLSt3",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4727,
+    "leagueName": "Kreisliga Staffel 2 B-Junioren",
+    "leagueShortcut": "KLST2BJ",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4729,
+    "leagueName": "Kreisliga AH Ü35 Staffel 1",
+    "leagueShortcut": "KLAHST1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4730,
+    "leagueName": "Kreisliga Staffel 2 1.Herren",
+    "leagueShortcut": "KLST2H1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4731,
+    "leagueName": "1.Kreisklasse Staffel 3 2.Herren",
+    "leagueShortcut": "1KKST3H2",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4711,
+    "leagueName": "Nations League 2024/25 (DE)",
+    "leagueShortcut": "unl2024",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4712,
+    "leagueName": "Baller League",
+    "leagueShortcut": "baller",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4716,
+    "leagueName": "Copa América 2024",
+    "leagueShortcut": "CA2024",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4717,
+    "leagueName": "Premier League UK",
+    "leagueShortcut": "ukpl",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4736,
+    "leagueName": "Test Liga Sirez ",
+    "leagueShortcut": "TLS",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4738,
+    "leagueName": "myLig",
+    "leagueShortcut": "dbl1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4739,
+    "leagueName": "DFB-Pokal 2024/25",
+    "leagueShortcut": "dfb",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4740,
+    "leagueName": "OpenLigaDB-Testliga",
+    "leagueShortcut": "test",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4741,
+    "leagueName": "1. Fußball-Bundesliga 2024/2025",
+    "leagueShortcut": "bl1",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4743,
+    "leagueName": "Nationalteams Freundschaftsspiele Sommer 2024 (Test)",
+    "leagueShortcut": "test2024",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4744,
+    "leagueName": "TestligaSPR",
+    "leagueShortcut": "spr",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4745,
+    "leagueName": "Serie Z",
+    "leagueShortcut": "ITA_Z1",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4719,
+    "leagueName": "Test123123",
+    "leagueShortcut": "te1",
+    "leagueSeason": "2023",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4748,
+    "leagueName": "UEFA Euro 2024 mit Karten",
+    "leagueShortcut": "em2024mitKarten",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4750,
+    "leagueName": "Spiele-DB Hannover 96",
+    "leagueShortcut": "96data",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4767,
+    "leagueName": "FVRHLD",
+    "leagueShortcut": "Kreisliga A5",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4768,
+    "leagueName": "Kreisliga Westthüringen Staffel 2 1.Herren\t",
+    "leagueShortcut": "1HKLST2",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4769,
+    "leagueName": "Champions League 2024/25",
+    "leagueShortcut": "ucl2024",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4770,
+    "leagueName": "Kreisliga Alte Herren Ü35 Staffel 1",
+    "leagueShortcut": "KLAHST1",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4771,
+    "leagueName": "1.Kreisklasse Herren Staffel 2",
+    "leagueShortcut": "1KKHST2",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4772,
+    "leagueName": "Kreisoberliga Westthüringen A -Junioren",
+    "leagueShortcut": "KOLAJ",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4773,
+    "leagueName": "Kreisoberliga Westthüringen B - Junioren",
+    "leagueShortcut": "KOLWTBJ",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4774,
+    "leagueName": "Landeskasse Staffel 2 C - Junioren",
+    "leagueShortcut": "LKST2CJ",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4775,
+    "leagueName": "Kreisliga Westthüringen Staffel 2 C - Junioren",
+    "leagueShortcut": "KLWTST2CJ",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4777,
+    "leagueName": "Europa League 2024/25",
+    "leagueShortcut": "uel",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4778,
+    "leagueName": "UEFA Champions League",
+    "leagueShortcut": "ucl24",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4779,
+    "leagueName": "UEFA Europa League 2024/2025",
+    "leagueShortcut": "uel24",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4780,
+    "leagueName": "Kreisoberliga D-Junioren",
+    "leagueShortcut": "KOLDJ",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4781,
+    "leagueName": "Kreisliga Staffel 1 D-Junioren",
+    "leagueShortcut": "KLST1DJ",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4782,
+    "leagueName": "Verbandsliga D-Juniorinnen",
+    "leagueShortcut": "VLDJinnen",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4783,
+    "leagueName": "Kreisliga E-Junioren Staffel 1",
+    "leagueShortcut": "KLEJST1",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4784,
+    "leagueName": "Kreisliga E-Junioren Staffel 4",
+    "leagueShortcut": "KLEJST4",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4753,
+    "leagueName": "TestLigaForTesting",
+    "leagueShortcut": "tst",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4755,
+    "leagueName": "2. Fußball-Bundesliga 2024/2025",
+    "leagueShortcut": "bl2",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4756,
+    "leagueName": "3. Fußball-Bundesliga 2024/2025",
+    "leagueShortcut": "bl3",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4793,
+    "leagueName": "Nations League A 2024/2025",
+    "leagueShortcut": "nla",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4799,
+    "leagueName": "Meine Test Liga",
+    "leagueShortcut": "tpl",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4800,
+    "leagueName": "Champions League 2024/25 deutsche Teams",
+    "leagueShortcut": "cl24de",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4806,
+    "leagueName": "2. Fußball-Bundesliga 2025/2026",
+    "leagueShortcut": "bl2",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4810,
+    "leagueName": "Superleague",
+    "leagueShortcut": "SL25",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4811,
+    "leagueName": "Oberliga Westfalen",
+    "leagueShortcut": "OLW",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4813,
+    "leagueName": "Landesliga Gruppe 2 Scherpenberg",
+    "leagueShortcut": "'ldl2'",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4818,
+    "leagueName": "Kreisliga A Düsseldorf",
+    "leagueShortcut": "KADÜ",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4819,
+    "leagueName": "Kickercrew",
+    "leagueShortcut": "Kc1",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4821,
+    "leagueName": "1. Fußball-Bundesliga 2025/2026",
+    "leagueShortcut": "bl1",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4822,
+    "leagueName": "Champions League 2025/2026",
+    "leagueShortcut": "ucl",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4823,
+    "leagueName": "TestLIGA2",
+    "leagueShortcut": "test239",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4824,
+    "leagueName": "Bundesliga TEST2",
+    "leagueShortcut": "bl200",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4825,
+    "leagueName": "Ligue 2 BKT",
+    "leagueShortcut": "l2",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4838,
+    "leagueName": "Regionalliga West 2024/2025",
+    "leagueShortcut": "RLW",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4840,
+    "leagueName": "Niederrheinpokal 2024/2025",
+    "leagueShortcut": "nrp",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4842,
+    "leagueName": "Klub WM 2025",
+    "leagueShortcut": "kwm",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4843,
+    "leagueName": "Relegation Bundesliga 2024/2025",
+    "leagueShortcut": "rel",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4844,
+    "leagueName": "Klubweltmeisterschaft 2025",
+    "leagueShortcut": "cwm",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4845,
+    "leagueName": "miwell testliga",
+    "leagueShortcut": "mwtl1",
+    "leagueSeason": "2024",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4846,
+    "leagueName": "Futsi",
+    "leagueShortcut": "futsi",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4848,
+    "leagueName": "DFB Pokal 2025/2026",
+    "leagueShortcut": "dfb",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4857,
+    "leagueName": "3. Liga 2025/2026",
+    "leagueShortcut": "bl3",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4859,
+    "leagueName": "Swiss Super League 2025/2026",
+    "leagueShortcut": "ssl",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4860,
+    "leagueName": "Empty Stands Spendenliga (https://emptystands.me/aktivismus/spendenliga)",
+    "leagueShortcut": "essl",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4855,
+    "leagueName": "Fußball-Europameisterschaft der Frauen 2025",
+    "leagueShortcut": "Fef",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4865,
+    "leagueName": "Super League Schweiz 2025/2026",
+    "leagueShortcut": "ch1",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4871,
+    "leagueName": "4. Reichsliga",
+    "leagueShortcut": "bl3",
+    "leagueSeason": "1991",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4872,
+    "leagueName": "BastardLeague",
+    "leagueShortcut": "BL",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4873,
+    "leagueName": "Kreisliga West",
+    "leagueShortcut": "kr1",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4877,
+    "leagueName": "Champions League 2025/26 Ligaphase (DE)",
+    "leagueShortcut": "ucl2025",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4869,
+    "leagueName": "mqtt test liga",
+    "leagueShortcut": "dyUJ49T4hG2kh7tR_LuffWdmAxExyc6",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  },
+  {
+    "leagueId": 4882,
+    "leagueName": "Regionalliga Nordost 2025/2026",
+    "leagueShortcut": "rlno",
+    "leagueSeason": "2025",
+    "sport": {
+      "sportId": 1,
+      "sportName": "Fußball"
+    }
+  }
+]

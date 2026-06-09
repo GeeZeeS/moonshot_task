@@ -1,0 +1,19 @@
+[
+  {
+    "team": {
+      "teamId": 6447,
+      "teamName": "1. FC Union Berlin Frauen",
+      "shortName": "Union Berlin",
+      "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "teamGroupName": null
+    },
+    "matches": 10,
+    "won": 7,
+    "draw": 2,
+    "lost": 1,
+    "goals": 20,
+    "opponentGoals": 8,
+    "goalDiff": 12,
+    "points": 23
+  }
+]
