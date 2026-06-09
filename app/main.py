@@ -3,18 +3,20 @@ from __future__ import annotations
 from contextlib import asynccontextmanager
 from uuid import uuid4
 
-from base.config import settings
-from base.errors import ProxyError
-from base.middleware import RequestResponseLoggingMiddleware
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
-from providers import OpenLigaProvider
-from proxy.schemas import ErrorResponse
-from proxy.utils.decision_mapper import DecisionMapper
+
+from app.core.config import settings
+from app.core.errors import ProxyError
+from app.core.middleware import RequestResponseLoggingMiddleware
+from app.providers import OpenLigaProvider, SportsProvider
+from app.proxy.routers import proxy_router
+from app.proxy.schemas import ErrorResponse
+from app.proxy.utils.decision_mapper import DecisionMapper
 
 
-def build_provider():
+def build_provider() -> SportsProvider:
     if settings.provider_name == "openliga":
         return OpenLigaProvider()
     raise RuntimeError(f"Unsupported provider configuration: {settings.provider_name}")
@@ -36,6 +38,8 @@ app.add_middleware(RequestResponseLoggingMiddleware)
 
 provider = build_provider()
 decision_mapper = DecisionMapper(provider)
+app.state.decision_mapper = decision_mapper
+app.include_router(proxy_router)
 
 
 @app.exception_handler(ProxyError)

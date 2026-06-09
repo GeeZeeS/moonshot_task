@@ -65,6 +65,7 @@ class ProxyTests(unittest.TestCase):
             return response
 
         main.decision_mapper = DecisionMapper(FakeProvider())
+        main.app.state.decision_mapper = main.decision_mapper
         cls.client = TestClient(main.app)
 
     def test_successful_proxy_request(self) -> None:

@@ -3,7 +3,7 @@ import time
 from collections import deque
 
 
-class SimpleRateLimiter:
+class RateLimiter:
     def __init__(self, limit: int, window_seconds: float):
         self.limit = limit
         self.window_seconds = window_seconds
@@ -14,7 +14,10 @@ class SimpleRateLimiter:
         async with self._lock:
             while True:
                 now = time.monotonic()
-                while self._timestamps and now - self._timestamps[0] >= self.window_seconds:
+                while (
+                    self._timestamps
+                    and now - self._timestamps[0] >= self.window_seconds
+                ):
                     self._timestamps.popleft()
 
                 if len(self._timestamps) < self.limit:

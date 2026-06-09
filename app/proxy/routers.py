@@ -1,8 +1,9 @@
 from uuid import uuid4
 
 from fastapi import APIRouter, Request
-from main import decision_mapper
-from schemas import ProxyRequest
+
+from app.proxy.schemas import ProxyRequest
+from app.proxy.utils.decision_mapper import DecisionMapper
 
 proxy_router = APIRouter(
     prefix="/proxy",
@@ -11,6 +12,7 @@ proxy_router = APIRouter(
 
 @proxy_router.post("/execute")
 async def execute_proxy(request: Request, proxy_request: ProxyRequest):
+    decision_mapper: DecisionMapper = request.app.state.decision_mapper
     request_id = (
         getattr(request.state, "request_id", None)
         or proxy_request.requestId

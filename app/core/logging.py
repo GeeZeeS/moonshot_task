@@ -5,8 +5,8 @@ import logging
 from datetime import datetime, timezone
 from typing import Any
 
-LOGGER_NAME = "proxy"
-SENSITIVE_HEADERS = {
+_LOGGER_NAME = "proxy"
+_SENSITIVE_HEADERS = {
     "authorization",
     "proxy-authorization",
     "cookie",
@@ -16,7 +16,7 @@ SENSITIVE_HEADERS = {
 
 
 def configure_logging() -> logging.Logger:
-    _logger = logging.getLogger(LOGGER_NAME)
+    _logger = logging.getLogger(_LOGGER_NAME)
     if _logger.handlers:
         return _logger
 
@@ -38,7 +38,7 @@ def utc_timestamp() -> str:
 def sanitize_headers(headers: dict[str, str]) -> dict[str, str]:
     sanitized: dict[str, str] = {}
     for key, value in headers.items():
-        sanitized[key] = "***" if key.lower() in SENSITIVE_HEADERS else value
+        sanitized[key] = "***" if key.lower() in _SENSITIVE_HEADERS else value
     return sanitized
 
 

@@ -222,7 +222,7 @@ curl -X POST http://127.0.0.1:8000/proxy/execute \
 
 ## Decision Mapper
 
-The decision mapper lives in `app/decision.py`.
+The decision mapper lives in `app/proxy/utils/decision_mapper.py`.
 
 - It looks up `operationType` in a fixed mapping.
 - Each operation maps to a Pydantic payload schema and a provider method name.
@@ -241,7 +241,7 @@ Swap behavior:
 
 - The HTTP endpoint and decision mapper only depend on the provider interface.
 - OpenLiga-specific URLs and path construction stay inside `OpenLigaProvider`.
-- Provider selection is configured through `SPORTS_PROVIDER` in `app/config.py`.
+- Provider selection is configured through `SPORTS_PROVIDER` in `app/base/config.py`.
 
 ## Rate Limiting And Backoff
 

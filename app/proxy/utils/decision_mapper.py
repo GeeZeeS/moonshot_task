@@ -4,23 +4,23 @@ import time
 from dataclasses import dataclass
 from typing import Any, Awaitable, Callable
 
-from base.logging import log_event
-from proxy.schemas import (
+from pydantic import BaseModel, ValidationError
+
+from app.core.errors import ProxyError, UpstreamServiceError
+from app.core.logging import log_event
+from app.providers.base import SportsProvider
+from app.proxy.schemas import (
     GetLeagueMatchesPayload,
     GetMatchPayload,
     GetTeamPayload,
     ListLeaguesPayload,
 )
-from pydantic import BaseModel, ValidationError
-
-from app.base.errors import ProxyError, UpstreamServiceError
-from app.providers.base import SportsProvider
 
 ProviderMethod = Callable[[dict[str, Any]], Awaitable[dict[str, Any]]]
 
 
 @dataclass(frozen=True)
-class OperationConfig: # noqa
+class OperationConfig:
     payload_model: type[BaseModel]
     provider_method_name: str
 
@@ -37,7 +37,9 @@ class DecisionMapper:
     def __init__(self, provider: SportsProvider):
         self.provider = provider
 
-    async def execute(self, request_id: str, operation_type: str, payload: dict[str, Any]) -> dict[str, Any]:
+    async def execute(
+        self, request_id: str, operation_type: str, payload: dict[str, Any]
+    ) -> dict[str, Any]:
         operation = OPERATIONS.get(operation_type)
         if operation is None:
             log_event(
@@ -72,7 +74,9 @@ class DecisionMapper:
                 details=details,
             ) from exc
 
-        provider_method: ProviderMethod = getattr(self.provider, operation.provider_method_name)
+        provider_method: ProviderMethod = getattr(
+            self.provider, operation.provider_method_name
+        )
         target_url = self.provider.preview_target_url(
             operation_type,
             validated_payload.model_dump(exclude_none=True),
@@ -94,7 +98,9 @@ class DecisionMapper:
 
         started_at = time.perf_counter()
         try:
-            response = await provider_method(validated_payload.model_dump(exclude_none=True))
+            response = await provider_method(
+                validated_payload.model_dump(exclude_none=True)
+            )
         except UpstreamServiceError as exc:
             latency_ms = round((time.perf_counter() - started_at) * 1000, 2)
             log_event(

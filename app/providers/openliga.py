@@ -5,11 +5,11 @@ import random
 from typing import Any
 
 import httpx
-from providers.rate_limiter import SimpleRateLimiter
 
-from app.base.config import settings
-from app.base.errors import UpstreamServiceError
+from app.core.config import settings
+from app.core.errors import UpstreamServiceError
 from app.providers.base import SportsProvider
+from app.providers.rate_limiter import RateLimiter
 
 
 class OpenLigaProvider(SportsProvider):
@@ -22,7 +22,7 @@ class OpenLigaProvider(SportsProvider):
         self.retry_attempts = settings.upstream_retry_attempts
         self.retry_base_delay_seconds = settings.upstream_retry_base_delay_seconds
         self.retry_max_delay_seconds = settings.upstream_retry_max_delay_seconds
-        self.rate_limiter = SimpleRateLimiter(
+        self.rate_limiter = RateLimiter(
             limit=settings.upstream_rate_limit_count,
             window_seconds=settings.upstream_rate_limit_window_seconds,
         )
