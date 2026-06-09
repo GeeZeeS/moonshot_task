@@ -24,8 +24,6 @@ Service endpoint:
 
 - `POST /proxy/execute`
 
-FastAPI docs routes are disabled so the app exposes only the required proxy endpoint.
-
 ## Request Format
 
 All traffic goes through the same endpoint:
@@ -84,7 +82,7 @@ Payload:
 
 Fields:
 
-- `leagueId`: required string, for example `bl2f`
+- `leagueId`: required string, for example `wm26`
 
 Example:
 
@@ -94,7 +92,7 @@ curl -X POST http://127.0.0.1:8000/proxy/execute \
   -d '{
     "operationType": "GetLeague",
     "payload": {
-      "leagueId": "bl2f"
+      "leagueId": "wm26"
     }
   }'
 ```
@@ -107,7 +105,7 @@ Payload:
 
 ```json
 {
-  "leagueId": "bl2f",
+  "leagueId": "wm26",
   "season": 2026
 }
 ```
@@ -125,7 +123,7 @@ curl -X POST http://127.0.0.1:8000/proxy/execute \
   -d '{
     "operationType": "GetLeagueSeason",
     "payload": {
-      "leagueId": "bl2f",
+      "leagueId": "wm26",
       "season": 2026
     }
   }'
@@ -139,7 +137,7 @@ Payload:
 
 ```json
 {
-  "leagueId": "bl2f"
+  "leagueId": "wm26"
 }
 ```
 
@@ -155,7 +153,7 @@ curl -X POST http://127.0.0.1:8000/proxy/execute \
   -d '{
     "operationType": "GetLeagueStandings",
     "payload": {
-      "leagueId": "bl2f"
+      "leagueId": "wm26"
     }
   }'
 ```
