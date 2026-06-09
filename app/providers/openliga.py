@@ -1,19 +1,30 @@
 from __future__ import annotations
 
 import asyncio
+import json
 import random
 from typing import Any
 
-import httpx
+from httpx import AsyncClient, HTTPError, TimeoutException
 
 from app.core.config import settings
 from app.core.errors import UpstreamServiceError
 from app.providers.base import SportsProvider
+from app.providers.openliga_schemas import (
+    GetLeagueMatchesResponse,
+    GetLeagueResponse,
+    GetLeagueStandingsResponse,
+    GetMatchesBetweenTeamsResponse,
+    GetTeamResponse,
+    LeagueSchema,
+    ListLeaguesResponse,
+    MatchSchema,
+    TeamSchema,
+)
 from app.providers.rate_limiter import RateLimiter
 
 
-class OpenLigaProvider(SportsProvider):
-    name = "openliga"
+class OpenLigaClient:
     transient_status_codes = frozenset({429, 500, 502, 503, 504})
 
     def __init__(self):
@@ -27,106 +38,36 @@ class OpenLigaProvider(SportsProvider):
             window_seconds=settings.upstream_rate_limit_window_seconds,
         )
 
-    async def list_leagues(self, payload: dict[str, Any]) -> dict[str, Any]:
-        season = payload.get("season")
-        path = self._list_leagues_path(season)
-        leagues = await self._request_json(path)
-        normalized = [
-            {
-                "leagueId": item.get("leagueId"),
-                "leagueShortcut": item.get("leagueShortcut"),
-                "leagueName": item.get("leagueName"),
-                "sportName": (item.get("sport") or {}).get("sportName"),
-            }
-            for item in leagues
-        ]
-        return {"provider": self.name, "count": len(normalized), "leagues": normalized}
-
-    async def get_league_matches(self, payload: dict[str, Any]) -> dict[str, Any]:
-        league_shortcut = payload["leagueShortcut"]
-        season = payload["season"]
-        group_order_id = payload.get("groupOrderId")
-        path = self._league_matches_path(league_shortcut, season, group_order_id)
-
-        matches = await self._request_json(path)
-        normalized_matches = [self._normalize_match(match) for match in matches]
-        return {
-            "provider": self.name,
-            "leagueShortcut": league_shortcut,
-            "season": season,
-            "groupOrderId": group_order_id,
-            "count": len(normalized_matches),
-            "matches": normalized_matches,
-        }
-
-    async def get_team(self, payload: dict[str, Any]) -> dict[str, Any]:
-        team_id = payload["teamId"]
-        team = await self._request_json(self._team_path(team_id))
-        normalized = {
-            "teamId": team.get("teamId"),
-            "teamName": team.get("teamName"),
-            "shortName": team.get("shortName"),
-            "teamIconUrl": team.get("teamIconUrl"),
-        }
-        return {"provider": self.name, "team": normalized}
-
-    async def get_match(self, payload: dict[str, Any]) -> dict[str, Any]:
-        match_id = payload["matchId"]
-        match = await self._request_json(self._match_path(match_id))
-        return {"provider": self.name, "match": self._normalize_match(match)}
-
     def preview_target_url(self, operation_type: str, payload: dict[str, Any]) -> str:
-        path = self._path_for_operation(operation_type, payload)
-        return f"{self.base_url}{path}"
+        return f"{self.base_url}{self._build_path(operation_type, payload)}"
 
-    @staticmethod
-    def _list_leagues_path(season: int | None) -> str:
-        if season is None:
-            return "/getavailableleagues"
-        return f"/getavailableleagues/{season}"
+    @classmethod
+    def _build_path(cls, operation_type: str, payload: dict[str, Any]) -> str:
+        match operation_type:
+            case "GetAllLeagues":
+                return "/getavailableleagues"
+            case "GetLeague":
+                return f"/getmatchdata/{payload['leagueId']}"
+            case "GetLeagueSeason":
+                return f"/getmatchdata/{payload['leagueId']}/{payload['season']}"
+            case "GetTeam":
+                return f"/getteam/{payload['teamId']}"
+            case "GetLeagueStandings":
+                return f"/getbltable/{payload['leagueId']}"
+            case "GetMatchesBetweenTeams":
+                return f"/getmatchdata/{payload['teamId1']}/{payload['teamId2']}"
+            case _:
+                raise ValueError(f"Unsupported operation type: {operation_type}")
 
-    @staticmethod
-    def _league_matches_path(
-        league_shortcut: str, season: int, group_order_id: int | None
-    ) -> str:
-        if group_order_id is None:
-            return f"/getmatchdata/{league_shortcut}/{season}"
-        return f"/getmatchdata/{league_shortcut}/{season}/{group_order_id}"
-
-    @staticmethod
-    def _team_path(team_id: int) -> str:
-        return f"/getteam/{team_id}"
-
-    @staticmethod
-    def _match_path(match_id: int) -> str:
-        return f"/getmatchdata/{match_id}"
-
-    def _path_for_operation(self, operation_type: str, payload: dict[str, Any]) -> str:
-        if operation_type == "ListLeagues":
-            return self._list_leagues_path(payload.get("season"))
-        if operation_type == "GetLeagueMatches":
-            return self._league_matches_path(
-                payload["leagueShortcut"],
-                payload["season"],
-                payload.get("groupOrderId"),
-            )
-        if operation_type == "GetTeam":
-            return self._team_path(payload["teamId"])
-        if operation_type == "GetMatch":
-            return self._match_path(payload["matchId"])
-        return ""
-
-    async def _request_json(self, path: str) -> Any:
-        last_error: UpstreamServiceError | None = None
+    async def request(self, operation_type: str, payload: dict[str, Any]) -> Any:
+        last_error = None
 
         for attempt in range(1, self.retry_attempts + 1):
             try:
-                return await self._perform_request(path)
-            except (
-                UpstreamServiceError,
-                httpx.TimeoutException,
-                httpx.HTTPError,
-            ) as exc:
+                return await self._perform_request(
+                    self._build_path(operation_type, payload)
+                )
+            except (UpstreamServiceError, TimeoutException, HTTPError) as exc:
                 last_error = self._to_upstream_error(exc)
                 if not self._should_retry(last_error, attempt):
                     if isinstance(exc, UpstreamServiceError):
@@ -138,6 +79,24 @@ class OpenLigaProvider(SportsProvider):
         assert last_error is not None
         raise last_error
 
+    async def _perform_request(self, path: str) -> Any:
+        await self.rate_limiter.acquire()
+        async with AsyncClient(base_url=self.base_url, timeout=self.timeout) as client:
+            response = await client.get(path)
+
+        if response.status_code >= 400:
+            raise UpstreamServiceError(
+                message=f"{path=} returned status {response.status_code}",
+                status_code=response.status_code,
+            )
+        try:
+            return response.json()
+        except json.JSONDecodeError as exc:
+            body_preview = response.text[:200]
+            raise UpstreamServiceError(
+                message=(f"{path=} returned non-JSON response: {body_preview!r}")
+            ) from exc
+
     def _should_retry(self, error: UpstreamServiceError, attempt: int) -> bool:
         if attempt >= self.retry_attempts:
             return False
@@ -148,78 +107,86 @@ class OpenLigaProvider(SportsProvider):
 
     @staticmethod
     def _to_upstream_error(
-        error: UpstreamServiceError | httpx.TimeoutException | httpx.HTTPError,
+        error: UpstreamServiceError | TimeoutException | HTTPError,
     ) -> UpstreamServiceError:
         if isinstance(error, UpstreamServiceError):
             return error
-        if isinstance(error, httpx.TimeoutException):
+        if isinstance(error, TimeoutException):
             return UpstreamServiceError("Upstream request timed out")
         return UpstreamServiceError("Upstream HTTP error")
 
     def _backoff_delay(self, attempt: int) -> float:
-        delay = min(
-            self.retry_base_delay_seconds * (2 ** (attempt - 1)),
-            self.retry_max_delay_seconds,
+        delay = float(
+            min(
+                self.retry_base_delay_seconds * (2 ** (attempt - 1)),
+                self.retry_max_delay_seconds,
+            )
         )
         jitter = random.uniform(0, delay / 4 if delay else 0.1)
         return delay + jitter
 
-    async def _perform_request(self, path: str) -> Any:
-        await self.rate_limiter.acquire()
-        async with httpx.AsyncClient(
-            base_url=self.base_url, timeout=self.timeout
-        ) as client:
-            response = await client.get(path)
 
-        if response.status_code >= 400:
-            raise UpstreamServiceError(
-                message=f"OpenLiga returned status {response.status_code}",
-                status_code=response.status_code,
-            )
-        return response.json()
+class OpenLigaProvider(SportsProvider):
+    name = "openliga"
 
-    @staticmethod
-    def _normalize_match(match: dict[str, Any]) -> dict[str, Any]:
-        final_result = None
-        for result in match.get("matchResults", []):
-            if result.get("resultName") == "Endergebnis":
-                final_result = result
-                break
-        if final_result is None and match.get("matchResults"):
-            final_result = match["matchResults"][-1]
+    def __init__(self):
+        self.client = OpenLigaClient()
+        self.base_url = self.client.base_url
 
-        return {
-            "matchId": match.get("matchID"),
-            "matchDateTimeUtc": match.get("matchDateTimeUTC"),
-            "matchIsFinished": match.get("matchIsFinished"),
-            "leagueId": match.get("leagueId"),
-            "leagueName": match.get("leagueName"),
-            "leagueSeason": match.get("leagueSeason"),
-            "group": {
-                "groupOrderId": (match.get("group") or {}).get("groupOrderID"),
-                "groupName": (match.get("group") or {}).get("groupName"),
-            },
-            "team1": OpenLigaProvider._normalize_team(match.get("team1")),
-            "team2": OpenLigaProvider._normalize_team(match.get("team2")),
-            "score": {
-                "team1": None if not final_result else final_result.get("pointsTeam1"),
-                "team2": None if not final_result else final_result.get("pointsTeam2"),
-            },
-            "location": {
-                "locationId": (match.get("location") or {}).get("locationID"),
-                "locationCity": (match.get("location") or {}).get("locationCity"),
-                "locationStadium": (match.get("location") or {}).get("locationStadium"),
-            },
-            "lastUpdateDateTime": match.get("lastUpdateDateTime"),
-        }
+    async def list_leagues(self, payload: dict[str, Any]) -> ListLeaguesResponse:
+        leagues = await self.client.request("GetAllLeagues", payload)
+        return ListLeaguesResponse(
+            provider=self.name,
+            count=len(leagues),
+            leagues=[LeagueSchema(**item) for item in leagues],
+        ).model_dump()
 
-    @staticmethod
-    def _normalize_team(team: dict[str, Any] | None) -> dict[str, Any] | None:
-        if team is None:
-            return None
-        return {
-            "teamId": team.get("teamId"),
-            "teamName": team.get("teamName"),
-            "shortName": team.get("shortName"),
-            "teamIconUrl": team.get("teamIconUrl"),
-        }
+    async def get_league(self, payload: dict[str, Any]):
+        matches = await self.client.request("GetLeague", payload)
+        return GetLeagueResponse(
+            provider=self.name,
+            leagueId=payload["leagueId"],
+            count=len(matches),
+            matches=[MatchSchema(**match) for match in (matches or [])],
+        ).model_dump()
+
+    async def get_league_matches(self, payload: dict[str, Any]):
+        matches = await self.client.request("GetLeagueSeason", payload)
+        return GetLeagueMatchesResponse(
+            provider=self.name,
+            leagueId=payload["leagueId"],
+            season=payload["season"],
+            count=len(matches),
+            matches=[MatchSchema(**match) for match in (matches or [])],
+        ).model_dump()
+
+    async def get_matches_between_teams(
+        self, payload: dict[str, Any]
+    ) -> dict[str, Any]:
+        matches = await self.client.request("GetMatchesBetweenTeams", payload)
+        return GetMatchesBetweenTeamsResponse(
+            provider=self.name,
+            teamId1=payload["teamId1"],
+            teamId2=payload["teamId2"],
+            count=len(matches),
+            matches=[MatchSchema(**match) for match in (matches or [])],
+        ).model_dump()
+
+    async def get_league_standings(self, payload: dict[str, Any]) -> dict[str, Any]:
+        standings = await self.client.request("GetLeagueStandings", payload)
+        return GetLeagueStandingsResponse(
+            provider=self.name,
+            leagueId=payload["leagueId"],
+            count=len(standings),
+            standings=[MatchSchema(**match) for match in (standings or [])],
+        ).model_dump()
+
+    async def get_team(self, payload: dict[str, Any]) -> dict[str, Any]:
+        team = await self.client.request("GetTeam", payload)
+        return GetTeamResponse(
+            provider=self.name,
+            team=TeamSchema(**team),
+        ).model_dump()
+
+    def preview_target_url(self, operation_type: str, payload: dict[str, Any]) -> str:
+        return self.client.preview_target_url(operation_type, payload)

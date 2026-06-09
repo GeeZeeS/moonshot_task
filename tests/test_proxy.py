@@ -1,11 +1,12 @@
 import unittest
 
-from fastapi.testclient import TestClient
 from fastapi.responses import JSONResponse
+from fastapi.testclient import TestClient
 
 import app.main as main
-from app.proxy.utils.decision_mapper import DecisionMapper
+from app.core.errors import UpstreamServiceError
 from app.providers.base import SportsProvider
+from app.proxy.utils.decision_mapper import DecisionMapper
 
 
 class FakeProvider(SportsProvider):
@@ -21,7 +22,10 @@ class FakeProvider(SportsProvider):
                     "leagueId": 1,
                     "leagueShortcut": "bl1",
                     "leagueName": "Bundesliga",
-                    "sportName": "Fussball",
+                    "sport": {
+                        "sportId": 1,
+                        "sportName": "Fussball",
+                    },
                 }
             ],
         }
@@ -29,9 +33,42 @@ class FakeProvider(SportsProvider):
     async def get_league_matches(self, payload: dict):
         return {
             "provider": self.name,
-            "leagueShortcut": payload["leagueShortcut"],
-            "season": payload["season"],
-            "groupOrderId": payload.get("groupOrderId"),
+            "leagueId": payload["leagueId"],
+            "season": payload.get("season"),
+            "count": 0,
+            "matches": [],
+        }
+
+    async def get_league_standings(self, payload: dict):
+        return {
+            "provider": self.name,
+            "leagueId": payload["leagueId"],
+            "count": 1,
+            "standings": [
+                {
+                    "team": {
+                        "teamId": 16,
+                        "teamName": "Test FC",
+                        "shortName": "TFC",
+                        "teamIconUrl": None,
+                    },
+                    "matches": 10,
+                    "won": 7,
+                    "draw": 2,
+                    "lost": 1,
+                    "goals": 20,
+                    "opponentGoals": 8,
+                    "goalDiff": 12,
+                    "points": 23,
+                }
+            ],
+        }
+
+    async def get_matches_between_teams(self, payload: dict):
+        return {
+            "provider": self.name,
+            "teamId1": payload["teamId1"],
+            "teamId2": payload["teamId2"],
             "count": 0,
             "matches": [],
         }
@@ -47,11 +84,16 @@ class FakeProvider(SportsProvider):
             },
         }
 
-    async def get_match(self, payload: dict):
-        return {"provider": self.name, "match": {"matchId": payload["matchId"]}}
-
     def preview_target_url(self, operation_type: str, payload: dict[str, object]) -> str:
         return f"{self.base_url}/{operation_type}"
+
+
+class UnsupportedProvider(FakeProvider):
+    async def get_league_standings(self, payload: dict):
+        raise UpstreamServiceError("not found", status_code=404)
+
+    async def get_team(self, payload: dict):
+        raise UpstreamServiceError("not found", status_code=404)
 
 
 class ProxyTests(unittest.TestCase):
@@ -92,6 +134,99 @@ class ProxyTests(unittest.TestCase):
         )
         self.assertEqual(response.status_code, 400)
         self.assertEqual(response.json()["code"], "PAYLOAD_VALIDATION_ERROR")
+
+    def test_get_league_allows_league_id_without_season(self) -> None:
+        response = self.client.post(
+            "/proxy/execute",
+            json={
+                "operationType": "GetLeague",
+                "payload": {"leagueId": "bl1"},
+            },
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["leagueId"], "bl1")
+        self.assertIsNone(response.json()["season"])
+
+    def test_get_league_season_allows_league_id_with_season(self) -> None:
+        response = self.client.post(
+            "/proxy/execute",
+            json={
+                "operationType": "GetLeagueSeason",
+                "payload": {"leagueId": "bl1", "season": 2024},
+            },
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["leagueId"], "bl1")
+        self.assertEqual(response.json()["season"], 2024)
+
+    def test_get_league_matches_allows_string_league_id(self) -> None:
+        response = self.client.post(
+            "/proxy/execute",
+            json={
+                "operationType": "GetLeagueMatches",
+                "payload": {"leagueId": "wm26"},
+            },
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["leagueId"], "wm26")
+        self.assertIsNone(response.json()["season"])
+
+    def test_get_league_standings_returns_standings(self) -> None:
+        response = self.client.post(
+            "/proxy/execute",
+            json={
+                "operationType": "GetLeagueStandings",
+                "payload": {"leagueId": "bl1"},
+            },
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["leagueId"], "bl1")
+        self.assertEqual(response.json()["count"], 1)
+
+    def test_get_matches_between_teams_returns_matches(self) -> None:
+        response = self.client.post(
+            "/proxy/execute",
+            json={
+                "operationType": "GetMatchesBetweenTeams",
+                "payload": {"teamId1": 16, "teamId2": 17},
+            },
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["teamId1"], 16)
+        self.assertEqual(response.json()["teamId2"], 17)
+
+    def test_get_team_404_from_upstream_returns_not_implemented(self) -> None:
+        original_mapper = main.app.state.decision_mapper
+        main.app.state.decision_mapper = DecisionMapper(UnsupportedProvider())
+        try:
+            response = self.client.post(
+                "/proxy/execute",
+                json={"operationType": "GetTeam", "payload": {"teamId": 16}},
+            )
+        finally:
+            main.app.state.decision_mapper = original_mapper
+
+        self.assertEqual(response.status_code, 501)
+        self.assertEqual(response.json()["code"], "OPERATION_NOT_IMPLEMENTED")
+
+    def test_get_league_standings_404_from_upstream_returns_not_implemented(
+        self,
+    ) -> None:
+        original_mapper = main.app.state.decision_mapper
+        main.app.state.decision_mapper = DecisionMapper(UnsupportedProvider())
+        try:
+            response = self.client.post(
+                "/proxy/execute",
+                json={
+                    "operationType": "GetLeagueStandings",
+                    "payload": {"leagueId": "bl1"},
+                },
+            )
+        finally:
+            main.app.state.decision_mapper = original_mapper
+
+        self.assertEqual(response.status_code, 501)
+        self.assertEqual(response.json()["code"], "OPERATION_NOT_IMPLEMENTED")
 
     def test_request_id_from_body_is_reused_in_response_header(self) -> None:
         response = self.client.post(

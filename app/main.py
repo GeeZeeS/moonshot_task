@@ -10,7 +10,8 @@ from fastapi.responses import JSONResponse
 from app.core.config import settings
 from app.core.errors import ProxyError
 from app.core.middleware import RequestResponseLoggingMiddleware
-from app.providers import OpenLigaProvider, SportsProvider
+from app.providers.base import SportsProvider
+from app.providers.openliga import OpenLigaProvider
 from app.proxy.routers import proxy_router
 from app.proxy.schemas import ErrorResponse
 from app.proxy.utils.decision_mapper import DecisionMapper

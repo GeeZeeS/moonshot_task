@@ -52,6 +52,7 @@ class RequestResponseLoggingMiddleware:
                 response_state.status_code = int(message["status"])
                 _headers = MutableHeaders(scope=message)
                 _headers["x-request-id"] = request_id
+                await send(message)
                 return
 
             if message["type"] == "http.response.body":

@@ -9,9 +9,11 @@ from pydantic import BaseModel, ValidationError
 from app.core.errors import ProxyError, UpstreamServiceError
 from app.core.logging import log_event
 from app.providers.base import SportsProvider
-from app.proxy.schemas import (
+from app.providers.openliga_schemas import (
     GetLeagueMatchesPayload,
-    GetMatchPayload,
+    GetLeaguePayload,
+    GetLeagueStandingsPayload,
+    GetMatchesBetweenTeamsPayload,
     GetTeamPayload,
     ListLeaguesPayload,
 )
@@ -26,11 +28,19 @@ class OperationConfig:
 
 
 OPERATIONS: dict[str, OperationConfig] = {
-    "ListLeagues": OperationConfig(ListLeaguesPayload, "list_leagues"),
-    "GetLeagueMatches": OperationConfig(GetLeagueMatchesPayload, "get_league_matches"),
+    "GetAllLeagues": OperationConfig(ListLeaguesPayload, "list_leagues"),
+    "GetLeague": OperationConfig(GetLeaguePayload, "get_league"),
+    "GetLeagueSeason": OperationConfig(GetLeagueMatchesPayload, "get_league_matches"),
     "GetTeam": OperationConfig(GetTeamPayload, "get_team"),
-    "GetMatch": OperationConfig(GetMatchPayload, "get_match"),
+    "GetLeagueStandings": OperationConfig(
+        GetLeagueStandingsPayload, "get_league_standings"
+    ),
+    "GetMatchesBetweenTeams": OperationConfig(
+        GetMatchesBetweenTeamsPayload, "get_matches_between_teams"
+    ),
 }
+
+NOT_IMPLEMENTED_ON_UPSTREAM = frozenset({"GetTeam", "GetLeagueStandings"})
 
 
 class DecisionMapper:
@@ -116,6 +126,18 @@ class DecisionMapper:
                 latencyMs=latency_ms,
                 finalOutcome="error",
             )
+            if exc.status_code == 404 and operation_type in NOT_IMPLEMENTED_ON_UPSTREAM:
+                raise ProxyError(
+                    message="Operation not implemented by upstream provider",
+                    code="OPERATION_NOT_IMPLEMENTED",
+                    status_code=501,
+                    details=[
+                        (
+                            f"Operation '{operation_type}' is not supported by "
+                            f"provider '{self.provider.name}'"
+                        )
+                    ],
+                ) from exc
             raise ProxyError(
                 message="Upstream API failed",
                 code="UPSTREAM_API_FAILED",

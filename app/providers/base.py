@@ -17,11 +17,17 @@ class SportsProvider(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    async def get_team(self, payload: dict[str, Any]) -> dict[str, Any]:
+    async def get_league_standings(self, payload: dict[str, Any]) -> dict[str, Any]:
         raise NotImplementedError
 
     @abstractmethod
-    async def get_match(self, payload: dict[str, Any]) -> dict[str, Any]:
+    async def get_matches_between_teams(
+        self, payload: dict[str, Any]
+    ) -> dict[str, Any]:
+        raise NotImplementedError
+
+    @abstractmethod
+    async def get_team(self, payload: dict[str, Any]) -> dict[str, Any]:
         raise NotImplementedError
 
     @abstractmethod
