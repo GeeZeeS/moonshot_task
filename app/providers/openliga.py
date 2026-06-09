@@ -94,7 +94,7 @@ class OpenLigaClient:
         except json.JSONDecodeError as exc:
             body_preview = response.text[:200]
             raise UpstreamServiceError(
-                message=(f"{path=} returned non-JSON response: {body_preview!r}")
+                message=f"{path=} returned non-JSON response: {body_preview!r}"
             ) from exc
 
     def _should_retry(self, error: UpstreamServiceError, attempt: int) -> bool:

@@ -91,7 +91,7 @@ class GetLeagueMatchesResponse(BaseModel):
 
 
 class GetTeamPayload(BaseModel):
-    teamId1: int
+    teamId: int
 
 
 class GetTeamResponse(BaseModel):
